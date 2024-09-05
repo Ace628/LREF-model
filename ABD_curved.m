@@ -29,8 +29,7 @@ end
 A = Neutral_R*b*A;
 B = -Neutral_R*b*B;
 D = Neutral_R*b*D;
-% A55 = 5/4*Neutral_R*b*A55;
-A55 = Neutral_R*b*A55;
+A55 = 5/4*Neutral_R*b*A55;
 
 B(abs(B)<=1e-9)=0;
 
