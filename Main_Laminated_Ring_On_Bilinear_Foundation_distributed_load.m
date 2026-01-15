@@ -1,4 +1,6 @@
 %% If you want to use this code, the citation of our paper is needed
+%% Please cite our paper at https://doi.org/10.1016/j.ijsolstr.2025.113665
+%% Analytical modeling of laminated composite rings on nonreciprocal elastic foundations under non-axisymmetric loading
 clc
 close all
 clear all
@@ -183,3 +185,4 @@ polarplot(theta_di0,r_deform0)
 pax = gca;
 pax.ThetaDir = 'clockwise';
 pax.ThetaZeroLocation = 'top';
+
